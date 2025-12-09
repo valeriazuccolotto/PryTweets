@@ -1,0 +1,10 @@
+Declaratoria de uso de IA generativa 
+
+En este proyecto utilicé herramientas de IA generativa como Copilot en algunas partes.
+El apoyo que recibí fue principalmente en:
+- La estructuración inicial del proyecto, para organizar las carpetas y paquetes de manera clara.
+- Ejemplos de cómo implementar las funciones con Supplier, Function, Consumer y Runnable, lo que me ayudó a entender mejor cómo aplicarlos en Java. Y con esto pude comprender bien su funcionamiento.
+- Ejemplos de tweets de prueba para armar el archivo tweets.csv y verificar que el programa funcionara correctamente. También me dio totalmente los ejemplos que puse en ese archivo
+-Por ultimo, me ayudo a modificar algunas partes del código que me estaban dando algunos errores y problemas
+
+Todo el código lo revisé, comprendí y probé personalmente. Soy responsable de su funcionamiento y de la entrega final.

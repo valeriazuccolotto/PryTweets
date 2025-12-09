@@ -1,0 +1,2 @@
+Promedio positivos: 0.0
+Conteo: {positivo=2, negativo=2, neutral=2}

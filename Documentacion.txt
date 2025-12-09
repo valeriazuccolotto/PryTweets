@@ -1,0 +1,27 @@
+DOCUMENTACIÓN DEL PROYECTO
+
+Nombre del proyecto: ProyectoTweetsFuncional
+
+Descripción:
+Este proyecto realiza un análisis funcional de tweets utilizando Java y el paradigma funcional. Se trabaja con un archivo CSV que contiene publicaciones de Twitter, aplicando transformaciones al texto, cálculos estadísticos y generación de reportes. El objetivo principal es practicar el uso de interfaces funcionales como Supplier, Function, Consumer y Runnable, junto con Streams.
+
+Estructura de paquetes y carpetas:
+- data/ → contiene el archivo de entrada tweets.csv
+- output/ → contiene los archivos generados: tweets_limpios.txt y resumen_estadisticas.txt
+- src/
+  ├─ com.mycompany.proyectotweetsfuncional.model → contiene la clase Tweet.java
+  ├─ com.mycompany.proyectotweetsfuncional.service → contiene TweetLoader.java, TweetAnalyticsService.java y TextTransformService.java
+  ├─ com.mycompany.proyectotweetsfuncional.report → contiene ReportGenerator.java
+  ├─ com.mycompany.proyectotweetsfuncional.app → contiene Main.java
+
+Ubicación de Supplier / Function / Consumer / Runnable:
+- Supplier → método crearLectorTweets en TweetLoader.java
+- Function → método transformarTweets en TweetAnalyticsService.java y funciones en TextTransformService.java
+- Consumer → método procesarTweets en TweetAnalyticsService.java
+- Runnable → definido y ejecutado en Main.java como flujoPrincipal
+
+Comentarios útiles en el código:
+- En Tweet.java: se indica que es una clase de datos con atributos básicos del tweet.
+- En TweetLoader.java: se comenta que el método crea un Supplier para leer el archivo CSV.
+- En TweetAnalyticsService.java: se explican los métodos de transformación, procesamiento y análisis estadístico.
+- En Main.java: se comenta que el Runnable ejecuta el flujo completo del proyecto.

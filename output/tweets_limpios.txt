@@ -1,0 +1,6 @@
+Tweet{id=1, entidad=CocaCola, sentimiento=positivo, texto=Me encanta la nueva campaña de CocaCola }
+Tweet{id=2, entidad=Nestle, sentimiento=negativo, texto=No me gusta el sabor de este producto }
+Tweet{id=3, entidad=Bimbo, sentimiento=neutral, texto=El pan de Bimbo está disponible en todas las tiendas}
+Tweet{id=4, entidad=CocaCola, sentimiento=positivo, texto=Excelente sabor y refrescante}
+Tweet{id=5, entidad=Nestle, sentimiento=neutral, texto=Probando nuevos chocolates de Nestle}
+Tweet{id=6, entidad=Bimbo, sentimiento=negativo, texto=El pan estaba duro y viejo}

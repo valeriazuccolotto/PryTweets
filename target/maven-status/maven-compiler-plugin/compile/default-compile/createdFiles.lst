@@ -1,0 +1,6 @@
+com\mycompany\proyectotweetsfuncional\service\TweetLoader.class
+com\mycompany\proyectotweetsfuncional\app\Main.class
+com\mycompany\proyectotweetsfuncional\report\ReportGenerator.class
+com\mycompany\proyectotweetsfuncional\service\TweetAnalyticsService.class
+com\mycompany\proyectotweetsfuncional\model\Tweet.class
+com\mycompany\proyectotweetsfuncional\service\TextTransformService.class
