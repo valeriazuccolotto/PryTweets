@@ -28,7 +28,7 @@ public class Main {
                     TextTransformService.removeMentions()
                             .andThen(TextTransformService.removeHashtags()));
 
-            double promedioPositivos = TweetAnalyticsService.calcularPromedioLongitud(tweetsLimpios, "positive");
+            double promedioPositivos = TweetAnalyticsService.calcularPromedioLongitud(tweetsLimpios, "positivo");
             Map<String, Long> conteo = TweetAnalyticsService.contarTweetsPorSentimiento(tweetsLimpios);
 
             ReportGenerator.guardarTweetsLimpios(tweetsLimpios, "output/tweets_limpios.txt");
@@ -40,3 +40,4 @@ public class Main {
         pipelinePrincipal.run();
     }
 }
+
